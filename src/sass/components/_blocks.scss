@@ -1,0 +1,198 @@
+.box-size__border {
+  border: 2px solid $green-papa;
+  border-radius: 5px;
+
+  .box-size__border__name {
+    font-size: 25px;
+    font-weight: 500;
+    color: $darkgrey-papa;
+    font-family: "papafont";
+    text-transform: uppercase;
+  }
+}
+
+.prueba {
+  width: 50%;
+}
+
+.adicional {
+  color: #898988;
+
+  .adicional__name {
+    font-size: 20px;
+    font-weight: 500;
+    color: $darkgrey-papa;
+    font-family: "papafont";
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+
+  }
+
+  .adicional__number-span {
+    color: $green-papa;
+    font-size: 24px;
+  }
+
+  .adicional--height-detail {
+    height: 85px;
+
+    @media (max-width: 340px) {
+      height: 100px;
+    }
+  }
+
+
+
+  .adicional--height-detail2 {
+    height: 125px;
+
+    @media (max-width: 340px) {
+      height: 150px;
+    }
+  }
+
+  .adicional--height-detail3 {
+    height: 150px;
+
+    @media (max-width: 340px) {
+      height: 175px;
+    }
+  }
+}
+
+.adicional__heigth {
+  height: 225px;
+}
+
+.detail {
+  margin: 0 1em;
+  padding: 1em;
+
+  .detail__line {
+    height: 3px;
+    background-color: $darkred-papa;
+    margin-bottom: 10px;
+  }
+
+  h5 {
+    color: $darkred-papa;
+    text-transform: uppercase;
+  }
+
+  textarea {
+    border-radius: 5px;
+    border: 2px solid $green-papa;
+    width: 100%;
+  }
+}
+
+
+.heightDescription--1 {
+  height: 70px;
+}
+
+.heightDescription--2 {
+  height: 130px;
+
+  @media (min-width: 341px) {
+    height: 125px;
+  }
+
+}
+
+.heightDescription--3 {
+  height: 175px;
+
+  @media (min-width: 341px) {
+    height: 150px;
+  }
+}
+
+.heightDescription--4 {
+  height: 230px;
+
+  @media (min-width: 341px) {
+    height: 180px;
+  }
+}
+
+
+/* The container */
+.temperature__container {
+  font-size: 18px;
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+.temperature__container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #ffffff;
+  border: 2px solid $green-papa;
+  border-radius: 5px;
+}
+
+
+.temperature__container:hover input~.checkmark {
+  background-color: #ffffff;
+  border: 2px solid $green-papa;
+}
+
+
+.temperature__container input:checked~.checkmark {
+  background-color: $green-papa;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+
+.temperature__container input:checked~.checkmark:after {
+  display: block;
+}
+
+
+.temperature__container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+
+
+.form-control{
+  border: 2px solid $green-papa;
+  &:focus{
+    outline: none;
+  } 
+}
+

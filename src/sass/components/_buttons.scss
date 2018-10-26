@@ -1,0 +1,42 @@
+
+// buttons
+.adicional{
+    .adicional__button{
+        text-align: center;
+        background-color: $lightgrey-papa;
+        color: white;
+        border: none;
+        height: 40px;
+        width: 35px;
+        font-size: 18px;
+        outline: none;
+        border-radius: 8px;
+        padding: 0 10px;
+    }
+}
+
+.confirm {
+    text-align: center;
+  
+    .confirm__btn-confirm-adicional {
+      background-color: $green-papa;
+      width: 100%;
+      color: white;
+      text-transform: uppercase;
+      font-size: 20px;
+      border: none;
+      outline: none;
+      &:focus{
+        outline: none;
+      } 
+    }
+  }
+
+  .btn-active {
+    background-color: $green-papa !important;
+    outline: none;
+  
+    &:focus {
+      outline: none;
+    }
+  }

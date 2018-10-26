@@ -1,0 +1,246 @@
+@font-face {
+  font-family: "papafont";
+  src: url("../assets/fonts/Knockout-HTF69-FullLiteweight.otf") format("truetype");
+}
+@font-face {
+  font-family: "papafont";
+  src: url("../assets/fonts/Knockout-HTF69-FullLiteweight.otf") format("truetype");
+}
+.adicional .adicional__button {
+  text-align: center;
+  background-color: #A39D9B;
+  color: white;
+  border: none;
+  height: 40px;
+  width: 35px;
+  font-size: 18px;
+  outline: none;
+  border-radius: 8px;
+  padding: 0 10px;
+}
+
+.confirm {
+  text-align: center;
+}
+.confirm .confirm__btn-confirm-adicional {
+  background-color: #009774;
+  width: 100%;
+  color: white;
+  text-transform: uppercase;
+  font-size: 20px;
+  border: none;
+  outline: none;
+}
+.confirm .confirm__btn-confirm-adicional:focus {
+  outline: none;
+}
+
+.btn-active {
+  background-color: #009774 !important;
+  outline: none;
+}
+.btn-active:focus {
+  outline: none;
+}
+
+.box-size__border {
+  border: 2px solid #009774;
+  border-radius: 5px;
+}
+.box-size__border .box-size__border__name {
+  font-size: 25px;
+  font-weight: 500;
+  color: #807673;
+  font-family: "papafont";
+  text-transform: uppercase;
+}
+
+.prueba {
+  width: 50%;
+}
+
+.adicional {
+  color: #898988;
+}
+.adicional .adicional__name {
+  font-size: 20px;
+  font-weight: 500;
+  color: #807673;
+  font-family: "papafont";
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+.adicional .adicional__number-span {
+  color: #009774;
+  font-size: 24px;
+}
+.adicional .adicional--height-detail {
+  height: 85px;
+}
+@media (max-width: 340px) {
+  .adicional .adicional--height-detail {
+    height: 100px;
+  }
+}
+.adicional .adicional--height-detail2 {
+  height: 125px;
+}
+@media (max-width: 340px) {
+  .adicional .adicional--height-detail2 {
+    height: 150px;
+  }
+}
+.adicional .adicional--height-detail3 {
+  height: 150px;
+}
+@media (max-width: 340px) {
+  .adicional .adicional--height-detail3 {
+    height: 175px;
+  }
+}
+
+.adicional__heigth {
+  height: 225px;
+}
+
+.detail {
+  margin: 0 1em;
+  padding: 1em;
+}
+.detail .detail__line {
+  height: 3px;
+  background-color: #BB141A;
+  margin-bottom: 10px;
+}
+.detail h5 {
+  color: #BB141A;
+  text-transform: uppercase;
+}
+.detail textarea {
+  border-radius: 5px;
+  border: 2px solid #009774;
+  width: 100%;
+}
+
+.heightDescription--1 {
+  height: 70px;
+}
+
+.heightDescription--2 {
+  height: 130px;
+}
+@media (min-width: 341px) {
+  .heightDescription--2 {
+    height: 125px;
+  }
+}
+
+.heightDescription--3 {
+  height: 175px;
+}
+@media (min-width: 341px) {
+  .heightDescription--3 {
+    height: 150px;
+  }
+}
+
+.heightDescription--4 {
+  height: 230px;
+}
+@media (min-width: 341px) {
+  .heightDescription--4 {
+    height: 180px;
+  }
+}
+
+/* The container */
+.temperature__container {
+  font-size: 18px;
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.temperature__container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #ffffff;
+  border: 2px solid #009774;
+  border-radius: 5px;
+}
+
+.temperature__container:hover input ~ .checkmark {
+  background-color: #ffffff;
+  border: 2px solid #009774;
+}
+
+.temperature__container input:checked ~ .checkmark {
+  background-color: #009774;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.temperature__container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.temperature__container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.form-control {
+  border: 2px solid #009774;
+}
+.form-control:focus {
+  outline: none;
+}
+
+.headerbox {
+  text-align: center;
+}
+.headerbox .headerbox__image {
+  width: 128px;
+}
+
+.adicional-section__title {
+  background-color: #BB141A;
+  color: white;
+  font-size: 29px;
+  font-family: papafont;
+  text-transform: uppercase;
+}
+.adicional-section__title .adicional-section__image {
+  height: 40px;
+  width: 40px;
+}
+
+/*# sourceMappingURL=main.css.map */
